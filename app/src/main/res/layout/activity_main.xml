@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/instruction_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/rock_button"
+        android:text="@string/rock_button"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="#fff"
+        android:textSize="20dp"
+        android:layout_weight="0.1"
+
+        />
+
+    <Button
+        android:id="@+id/paper_button"
+        android:text="@string/paper_button"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="#fff"
+        android:textSize="20dp"
+        android:layout_weight="0.1"/>
+
+    <Button
+        android:id="@+id/scissors_button"
+        android:text="@string/scissors_button"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:textSize="20dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text=""
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:id="@+id/win_check_text"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text=""
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_weight="0.1"/>
+
+
+
+
+</LinearLayout>
